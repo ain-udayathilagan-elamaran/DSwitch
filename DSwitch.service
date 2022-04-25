@@ -1,0 +1,12 @@
+[Unit]
+Description=Read The Switch State
+
+[Service]
+WorkingDirectory=/home/pi/DSwitch/
+Environment="TERM=xterm"
+ExecStart=/home/pi/DSwitch/D_Switch
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
+

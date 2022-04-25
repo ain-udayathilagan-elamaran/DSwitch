@@ -1,0 +1,12 @@
+Details={
+    "Main_Location":"/home/pi/DSwitch",
+    "username_mqtt":"iocld-mqtt-admin",
+    "password_mqtt":"admin123",
+    "mqtt_broker":"192.168.1.222",
+    "mqtt_port":1883,
+    "Publish_Topic":"AI/IIOT/IOCLD/DSwitch/",
+    "HeartBeat_Topic_Suffix":"/STATUS",
+    "Data_Topic_Suffix":"/DATA",
+    "HB_time":60,
+    "Main_Loop_Interval":0.2
+}
